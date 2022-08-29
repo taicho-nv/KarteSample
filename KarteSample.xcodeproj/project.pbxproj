@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640C630706CF8E54D1EE9213 /* Pods_KarteSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3407C632E2E575AF5030022 /* Pods_KarteSampleUITests.framework */; };
+		779A733A6C19F276F6E87ADF /* Pods_KarteSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6D0F4555B9A9A97143BD40 /* Pods_KarteSampleTests.framework */; };
+		7CD6FC4FD4039702C8A45852 /* Pods_KarteSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E88571D25B2D3132878AA3 /* Pods_KarteSample.framework */; };
 		E3DA858628B89E9E00E9AAA2 /* KarteSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA858528B89E9E00E9AAA2 /* KarteSampleApp.swift */; };
-		E3DA858828B89E9E00E9AAA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA858728B89E9E00E9AAA2 /* ContentView.swift */; };
+		E3DA858828B89E9E00E9AAA2 /* KarteSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA858728B89E9E00E9AAA2 /* KarteSampleView.swift */; };
 		E3DA858A28B89E9F00E9AAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DA858928B89E9F00E9AAA2 /* Assets.xcassets */; };
 		E3DA858D28B89E9F00E9AAA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DA858C28B89E9F00E9AAA2 /* Preview Assets.xcassets */; };
 		E3DA859728B89EA000E9AAA2 /* KarteSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA859628B89EA000E9AAA2 /* KarteSampleTests.swift */; };
 		E3DA85A128B89EA000E9AAA2 /* KarteSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA85A028B89EA000E9AAA2 /* KarteSampleUITests.swift */; };
 		E3DA85A328B89EA000E9AAA2 /* KarteSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA85A228B89EA000E9AAA2 /* KarteSampleUITestsLaunchTests.swift */; };
+		E3DA85B028B89EF000E9AAA2 /* KarteSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA85AF28B89EF000E9AAA2 /* KarteSampleViewController.swift */; };
+		E3DA85B428BCC01000E9AAA2 /* Karte-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3DA85B328BCC01000E9AAA2 /* Karte-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E88571D25B2D3132878AA3 /* Pods_KarteSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarteSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E111A0D52941730A2E44135 /* Pods-KarteSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarteSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-KarteSampleUITests/Pods-KarteSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4885C082F7E4A17CBAA11561 /* Pods-KarteSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarteSampleTests.release.xcconfig"; path = "Target Support Files/Pods-KarteSampleTests/Pods-KarteSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		54FC8A271F3563CAF4E65EC8 /* Pods-KarteSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarteSample.release.xcconfig"; path = "Target Support Files/Pods-KarteSample/Pods-KarteSample.release.xcconfig"; sourceTree = "<group>"; };
+		5B76A252A4858AA6E8F3F92B /* Pods-KarteSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarteSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-KarteSampleTests/Pods-KarteSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B201299074C7AD3F32AF4DE /* Pods-KarteSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarteSample.debug.xcconfig"; path = "Target Support Files/Pods-KarteSample/Pods-KarteSample.debug.xcconfig"; sourceTree = "<group>"; };
+		BF24FBA414B90CDD62B62D4E /* Pods-KarteSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarteSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-KarteSampleUITests/Pods-KarteSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E3DA858228B89E9E00E9AAA2 /* KarteSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarteSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DA858528B89E9E00E9AAA2 /* KarteSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarteSampleApp.swift; sourceTree = "<group>"; };
-		E3DA858728B89E9E00E9AAA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3DA858728B89E9E00E9AAA2 /* KarteSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarteSampleView.swift; sourceTree = "<group>"; };
 		E3DA858928B89E9F00E9AAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3DA858C28B89E9F00E9AAA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3DA859228B89EA000E9AAA2 /* KarteSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarteSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,10 @@
 		E3DA859C28B89EA000E9AAA2 /* KarteSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarteSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DA85A028B89EA000E9AAA2 /* KarteSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarteSampleUITests.swift; sourceTree = "<group>"; };
 		E3DA85A228B89EA000E9AAA2 /* KarteSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarteSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3DA85AF28B89EF000E9AAA2 /* KarteSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarteSampleViewController.swift; sourceTree = "<group>"; };
+		E3DA85B328BCC01000E9AAA2 /* Karte-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Karte-Info.plist"; sourceTree = "<group>"; };
+		F3407C632E2E575AF5030022 /* Pods_KarteSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarteSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6D0F4555B9A9A97143BD40 /* Pods_KarteSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarteSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD6FC4FD4039702C8A45852 /* Pods_KarteSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				779A733A6C19F276F6E87ADF /* Pods_KarteSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,19 +83,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640C630706CF8E54D1EE9213 /* Pods_KarteSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28170ECE77FA40140AF01C38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05E88571D25B2D3132878AA3 /* Pods_KarteSample.framework */,
+				FB6D0F4555B9A9A97143BD40 /* Pods_KarteSampleTests.framework */,
+				F3407C632E2E575AF5030022 /* Pods_KarteSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		960B790E16E5BD6BABBDD651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B201299074C7AD3F32AF4DE /* Pods-KarteSample.debug.xcconfig */,
+				54FC8A271F3563CAF4E65EC8 /* Pods-KarteSample.release.xcconfig */,
+				5B76A252A4858AA6E8F3F92B /* Pods-KarteSampleTests.debug.xcconfig */,
+				4885C082F7E4A17CBAA11561 /* Pods-KarteSampleTests.release.xcconfig */,
+				2E111A0D52941730A2E44135 /* Pods-KarteSampleUITests.debug.xcconfig */,
+				BF24FBA414B90CDD62B62D4E /* Pods-KarteSampleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E3DA857928B89E9E00E9AAA2 = {
 			isa = PBXGroup;
 			children = (
+				E3DA85B328BCC01000E9AAA2 /* Karte-Info.plist */,
 				E3DA858428B89E9E00E9AAA2 /* KarteSample */,
 				E3DA859528B89EA000E9AAA2 /* KarteSampleTests */,
 				E3DA859F28B89EA000E9AAA2 /* KarteSampleUITests */,
 				E3DA858328B89E9E00E9AAA2 /* Products */,
+				960B790E16E5BD6BABBDD651 /* Pods */,
+				28170ECE77FA40140AF01C38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,9 +140,10 @@
 			isa = PBXGroup;
 			children = (
 				E3DA858528B89E9E00E9AAA2 /* KarteSampleApp.swift */,
-				E3DA858728B89E9E00E9AAA2 /* ContentView.swift */,
+				E3DA858728B89E9E00E9AAA2 /* KarteSampleView.swift */,
 				E3DA858928B89E9F00E9AAA2 /* Assets.xcassets */,
 				E3DA858B28B89E9F00E9AAA2 /* Preview Content */,
+				E3DA85AF28B89EF000E9AAA2 /* KarteSampleViewController.swift */,
 			);
 			path = KarteSample;
 			sourceTree = "<group>";
@@ -134,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3DA85A628B89EA000E9AAA2 /* Build configuration list for PBXNativeTarget "KarteSample" */;
 			buildPhases = (
+				A22719714C19CFDD9EDBA4CD /* [CP] Check Pods Manifest.lock */,
 				E3DA857E28B89E9E00E9AAA2 /* Sources */,
 				E3DA857F28B89E9E00E9AAA2 /* Frameworks */,
 				E3DA858028B89E9E00E9AAA2 /* Resources */,
+				FFF65A156C5910A651530254 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3DA85A928B89EA000E9AAA2 /* Build configuration list for PBXNativeTarget "KarteSampleTests" */;
 			buildPhases = (
+				C630B85971821176CD776E4F /* [CP] Check Pods Manifest.lock */,
 				E3DA858E28B89EA000E9AAA2 /* Sources */,
 				E3DA858F28B89EA000E9AAA2 /* Frameworks */,
 				E3DA859028B89EA000E9AAA2 /* Resources */,
@@ -169,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3DA85AC28B89EA000E9AAA2 /* Build configuration list for PBXNativeTarget "KarteSampleUITests" */;
 			buildPhases = (
+				27D96497C929F44110817560 /* [CP] Check Pods Manifest.lock */,
 				E3DA859828B89EA000E9AAA2 /* Sources */,
 				E3DA859928B89EA000E9AAA2 /* Frameworks */,
 				E3DA859A28B89EA000E9AAA2 /* Resources */,
@@ -233,6 +283,7 @@
 			files = (
 				E3DA858D28B89E9F00E9AAA2 /* Preview Assets.xcassets in Resources */,
 				E3DA858A28B89E9F00E9AAA2 /* Assets.xcassets in Resources */,
+				E3DA85B428BCC01000E9AAA2 /* Karte-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,12 +303,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27D96497C929F44110817560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarteSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A22719714C19CFDD9EDBA4CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarteSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C630B85971821176CD776E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarteSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF65A156C5910A651530254 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarteSample/Pods-KarteSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KarteSample/Pods-KarteSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KarteSample/Pods-KarteSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3DA857E28B89E9E00E9AAA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3DA858828B89E9E00E9AAA2 /* ContentView.swift in Sources */,
+				E3DA858828B89E9E00E9AAA2 /* KarteSampleView.swift in Sources */,
+				E3DA85B028B89EF000E9AAA2 /* KarteSampleViewController.swift in Sources */,
 				E3DA858628B89E9E00E9AAA2 /* KarteSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +549,7 @@
 		};
 		E3DA85A728B89EA000E9AAA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B201299074C7AD3F32AF4DE /* Pods-KarteSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +579,7 @@
 		};
 		E3DA85A828B89EA000E9AAA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FC8A271F3563CAF4E65EC8 /* Pods-KarteSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +609,7 @@
 		};
 		E3DA85AA28B89EA000E9AAA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B76A252A4858AA6E8F3F92B /* Pods-KarteSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +630,7 @@
 		};
 		E3DA85AB28B89EA000E9AAA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4885C082F7E4A17CBAA11561 /* Pods-KarteSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +651,7 @@
 		};
 		E3DA85AD28B89EA000E9AAA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E111A0D52941730A2E44135 /* Pods-KarteSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +670,7 @@
 		};
 		E3DA85AE28B89EA000E9AAA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF24FBA414B90CDD62B62D4E /* Pods-KarteSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,55 @@
+PODS:
+  - KarteCore (2.21.0):
+    - KarteUtilities (~> 3.3)
+  - KarteCrashReporter (1.8.2)
+  - KarteCrashReporting (2.5.0):
+    - KarteCore (~> 2.0)
+    - KarteCrashReporter (= 1.8.2)
+  - KarteInAppMessaging (2.11.0):
+    - KarteCore (~> 2.3)
+    - KarteUtilities (~> 3.0)
+  - KarteRemoteNotification (2.7.1):
+    - KarteCore (~> 2.0)
+    - KarteUtilities (~> 3.0)
+  - KarteUtilities (3.7.0):
+    - KarteUtilities/standard (= 3.7.0)
+  - KarteUtilities/standard (3.7.0)
+  - KarteVariables (2.4.1):
+    - KarteCore (~> 2.0)
+    - KarteUtilities (~> 3.5)
+  - KarteVisualTracking (2.9.0):
+    - KarteCore (~> 2.0)
+    - KarteUtilities (~> 3.1)
+
+DEPENDENCIES:
+  - KarteCore
+  - KarteCrashReporting
+  - KarteInAppMessaging
+  - KarteRemoteNotification
+  - KarteVariables
+  - KarteVisualTracking
+
+SPEC REPOS:
+  trunk:
+    - KarteCore
+    - KarteCrashReporter
+    - KarteCrashReporting
+    - KarteInAppMessaging
+    - KarteRemoteNotification
+    - KarteUtilities
+    - KarteVariables
+    - KarteVisualTracking
+
+SPEC CHECKSUMS:
+  KarteCore: d1a9579683d53f1489dfd90cf9612ea9a25c97a6
+  KarteCrashReporter: b4ab2f7241a7ae077055622ac522f1903c93759e
+  KarteCrashReporting: ab4dd50b23cc7fbb5665da8c57cfe1b622f1cf25
+  KarteInAppMessaging: d7762b55622c657ed5a25c041c764a3ef7e6f2df
+  KarteRemoteNotification: 2659e88b901733137cfbd03f258e03a1589049de
+  KarteUtilities: 432cbe181f861314eecf37bd2bd236d2c9971721
+  KarteVariables: 2390ed3840bcca6a233e7beeb0215e33246b7809
+  KarteVisualTracking: 535c676d9447679cc20d6cc13fc0aef2d886083b
+
+PODFILE CHECKSUM: f78d49685f989f2eb2d0046d50ace0950eae503c
+
+COCOAPODS: 1.11.2
