@@ -7,6 +7,7 @@
 
 import SwiftUI
 import KarteCore
+import opencv2
 
 struct KarteSampleView: View {
     @State private var eventName = "favorite"
