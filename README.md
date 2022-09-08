@@ -1,6 +1,5 @@
 # KarteSample
 
-## Setup 
 1. podで必要なパッケージをインストール
 ```
 $ pod install
